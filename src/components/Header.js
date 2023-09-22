@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react';
 
-import Logo from '../assets/img/logo2.svg'
+import Logo from '../assets/img/logo3.svg'
 import Nav from '../components/Nav';
 import NavMobile from '../components/NavMobile';
 import Socials from '../components/Socials';
