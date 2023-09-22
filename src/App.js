@@ -6,6 +6,7 @@ const App = () => {
   return (
     <div>
       <Header/>
+      <div style={{ height:'2000px'}}></div>
     </div>
   )
 }
