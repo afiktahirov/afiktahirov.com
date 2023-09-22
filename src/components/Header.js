@@ -26,6 +26,12 @@ return(
         <div className="hidden lg:block">
             <Nav />
         </div>
+        <div className='hidden lg:block'>
+            <Socials />
+        </div>
+        <div className='lg:hidden'>
+            <NavMobile />
+        </div>
     </div>
 </header>
 );
