@@ -7,6 +7,7 @@ import Brands from './components/Brands';
 import About from './components/About';
 import Skills from './components/Skills';
 import Portofolio from './components/Portofolio';
+import Services from './components/Services';
 
 const App = () => {
   return (
@@ -17,7 +18,7 @@ const App = () => {
       <About />
       <Skills/>
       <Portofolio/>
-      <div style={{height:'2000px'}}></div>
+      <Services />
     </div>
   )
 };
