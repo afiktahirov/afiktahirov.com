@@ -35,7 +35,13 @@ const Contact = () => {
             </div>
 
             <form className='space-y-8 w-full max-w-[780px]'>
-                <div className='flex gap-8'></div>
+                <div className='flex gap-8'>
+                  <input className='input' placeholder='Your Name' type='text'/>
+                  <input className='input' placeholder='Your Email' type='text'/>
+                </div>
+                <input className='input' placeholder='Subject' type='text'/>
+                <textarea className='textarea' placeholder='Your Message'></textarea>
+                <button className='btn btn-lg bg-accent hover:bg-accent-hover'>Send message</button>
             </form>
         </div>
       </div>
